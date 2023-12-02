@@ -1,0 +1,15 @@
+{
+    "tabWidth": 2,
+    "printWidth": 80,
+    "singleAttributePerLine": true,
+    "htmlWhitespaceSensitivity": "strict",
+    "endOfLine": "lf",
+    "overrides": [
+      {
+        "files": "*.{html}",
+        "options": {
+          "parser": "html"
+        }
+      }
+    ]
+  }

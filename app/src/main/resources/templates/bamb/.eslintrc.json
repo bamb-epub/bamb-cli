@@ -1,0 +1,36 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "airbnb-base",
+      "plugin:html/recommended"
+    ],
+    "overrides": [
+      {
+        "env": {
+          "node": true
+        },
+        "files": [
+          ".eslintrc.{js,cjs}"
+        ],
+        "parserOptions": {
+          "sourceType": "script"
+        }
+      }
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "rules": {},
+    "plugins": ["html"],
+    "settings": {
+      "html/html-extensions": [".html", ".vue"],
+      "html/report-bad-indent": "error",
+      "html/indent": ["error", 2],
+      "html/require-closing-tags": "error",
+      "html/require-attribute-value": "error"
+    }
+  }

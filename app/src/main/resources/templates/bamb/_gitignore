@@ -1,0 +1,25 @@
+# PACKAGES
+node_modules/
+yarn.lock
+package-lock.json
+
+# BUILDS
+.bamb/
+ebooks
+
+# IDE
+.idea/
+.vscode/
+
+# HELPERS
+HELP.md
+
+# LOGS
+*.log
+*.swp
+*.swo
+
+# BUNDLERS
+*.bundle.js
+*.chunk.js
+*.js.map
